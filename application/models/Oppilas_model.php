@@ -12,5 +12,9 @@ class Oppilas_model extends CI_Model{
     $this->db->delete('tOpiskelijat');
   }
 
+  public function lisaa_tietokantaan($lisaa_data){
+    $this->db->set($lisaa_data);
+    $this->db->insert('tOpiskelijat');
+  }
 }
 ?>

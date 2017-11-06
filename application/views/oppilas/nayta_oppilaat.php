@@ -1,4 +1,5 @@
-<h1>opiskelijat</h1>
+<h1>Opiskelijat</h1>
+<a href="<?php echo site_url('oppilas/lisays_lomake')?> "><button type="button" class="btn btn-primary">Lisää opiskelija</button></a>
 <table class="table table-bordered table-striped">
   <tr>
     <th>etunimi</th><th>sukunimi</th><th>syntymävuosi</th><th>poista</th>
