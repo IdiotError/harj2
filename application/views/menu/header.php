@@ -14,7 +14,7 @@
       <li><a href="<?php echo site_url('login/avaa_lomake');?>">Kirjaudu</a></li><!--site urliin ei tiedostonimi vaan class ja controllerissa oleva funktion nimi-->
       <?php
       if($_SESSION['kirjautunut']==true)
-       echo '<li><a href='.site_url('login/kirjaudu_ulos').'">Kirjaudu ulos</a></li>';
+       echo '<li><a href="'.site_url('login/kirjaudu_ulos').'">Kirjaudu ulos</a></li>';
       ?>
     </ul>
 <div class="container">
